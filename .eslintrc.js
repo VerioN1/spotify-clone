@@ -40,7 +40,7 @@ module.exports = {
                         patterns: ['@/features/*/*'],
                     },
                 ],
-                'linebreak-style': ['error', 'unix'],
+                'linebreak-style': ['error', 'windows'],
                 'react/prop-types': 'off',
 
                 'import/order': [
@@ -67,7 +67,7 @@ module.exports = {
                 '@typescript-eslint/no-empty-function': ['off'],
                 '@typescript-eslint/no-explicit-any': ['off'],
 
-                'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+                'prettier/prettier': ['error', {'endOfLine': 'crlf',}, { usePrettierrc: true }],
             },
         },
     ],
