@@ -1,0 +1,17 @@
+.nav-button{
+    display: flex;
+    align-items: center;
+    width: min-content;
+    font-size: 18px;
+    margin-block: 0.7rem;
+    color: #989898;
+    cursor: pointer;
+}
+.nav-button > p{
+    margin-left: 1rem;
+    white-space: nowrap;
+}
+.nav-button:hover{
+    transition: all 0.7s ease;
+    color: #d7d7d7;
+}

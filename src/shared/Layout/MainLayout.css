@@ -1,0 +1,18 @@
+.main-skeleton{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  background: #000000;
+}
+.main-skeleton > div:nth-child(1) {
+    width: min(33vw ,24rem) ;
+    min-width: 12rem;
+    border-right: aliceblue solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-skeleton > div:nth-child(2) {
+    flex:1;
+}
