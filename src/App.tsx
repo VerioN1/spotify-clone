@@ -1,11 +1,7 @@
-import Home from '@/pages/Home/Home';
+import WithRouter from '@/App/Providers/withRouter';
 
 function App() {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <WithRouter />;
 }
 
 export default App;

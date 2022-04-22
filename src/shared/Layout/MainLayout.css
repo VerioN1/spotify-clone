@@ -6,8 +6,8 @@
   background: #000000;
 }
 .main-skeleton > div:nth-child(1) {
-    width: min(33vw ,24rem) ;
-    min-width: 12rem;
+    width: min(22vw ,24rem) ;
+    min-width: 15rem;
     border-right: aliceblue solid 1px;
     display: flex;
     flex-direction: column;

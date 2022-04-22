@@ -1,0 +1,8 @@
+.playlist-link{
+    cursor: pointer;
+    margin-block: 1rem;
+}
+.playlist-link:hover {
+    color: #fff;
+    transition: all 0.4s ease;
+}

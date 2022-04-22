@@ -7,7 +7,7 @@ type Props = {
 };
 const NavButton = ({ Icon, onClick, text }: Props) => {
   return (
-    <div className="nav-button">
+    <div className="nav-button" onClick={onClick}>
       {Icon}
       <p className="bold">{text}</p>
     </div>

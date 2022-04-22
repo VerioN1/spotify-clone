@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 import './MainLayout.css';
 import Sidebar from '@/widgets/Sidebar/Sidebar';
 
-const MainLayout = () => {
+type Props = {
+  children: React.ReactNode;
+};
+const MainLayout = ({ children }: Props) => {
   return (
     <div className="main-skeleton">
       <>
         <Sidebar />
       </>
-      <div></div>
+      <>{children}</>
     </div>
   );
 };
