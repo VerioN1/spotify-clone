@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './SidePlaylist.css';
-import PlaylistLink from '@/entities/PlaylistLink/PlaylistLink';
+import PlaylistLink from '@/shared/NavLinks/PlaylistLink/PlaylistLink';
 
 import { TEMP_PLAYLIST } from './model';
 const SidePlaylist = () => {

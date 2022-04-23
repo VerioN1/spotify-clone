@@ -1,16 +1,15 @@
 import React from 'react';
-import { ArrowBack } from 'tabler-icons-react';
 
-import Button from '@/entities/Button/Button';
 import MainLayout from '@/shared/Layout/MainLayout';
 import Header from '@/widgets/Header/Header';
+import ProductsSection from '@/widgets/ProductsSection/ProductsSection';
 
 const Home = () => {
   return (
     <MainLayout>
-      <div className="page-layout">
-        <h1>Home</h1>
+      <div>
         <Header />
+        <ProductsSection />
       </div>
     </MainLayout>
   );

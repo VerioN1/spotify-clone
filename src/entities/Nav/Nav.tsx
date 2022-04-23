@@ -5,8 +5,8 @@ import './Nav.css';
 import { useNavigate } from 'react-router-dom';
 import { Heart, Home, Plus, Search, Wallpaper } from 'tabler-icons-react';
 
-import NavButton from '@/entities/NavButton/NavButton';
 import Divider from '@/shared/Divider/Divider';
+import NavButton from '@/shared/NavLinks/NavButton/NavButton';
 const Nav = () => {
   //TODO: it is recommended to use object instead of hard coding nav buttons
   const navigate = useNavigate();

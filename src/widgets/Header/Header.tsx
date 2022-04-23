@@ -1,15 +1,21 @@
 import React from 'react';
 import { ArrowBack } from 'tabler-icons-react';
 
-import Avatar from '@/entities/Avatar/Avatar';
-import Button from '@/entities/Button/Button';
+import './Header.css';
+import Avatar from '@/shared/Avatar/Avatar';
+import Button from '@/shared/Button/Button';
 
 const Header = () => {
   return (
     <div className="header-wrapper">
-      <Button radius="2">
-        <ArrowBack size={30} />
-      </Button>
+      <div>
+        <Button radius="2" iconBtn={true}>
+          <ArrowBack size={30} />
+        </Button>
+        <Button radius="2" iconBtn={true}>
+          <ArrowBack size={30} />
+        </Button>
+      </div>
       <Button radius="2">
         <Avatar
           src={

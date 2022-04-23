@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Nav from '@/features/Nav';
+import Nav from '@/entities/Nav';
 import './Sidebar.css';
-import SidePlaylist from '@/features/SidePlaylist/SidePlaylist';
+import SidePlaylist from '@/entities/SidePlaylist/SidePlaylist';
 import Divider from '@/shared/Divider/Divider';
 const Sidebar = () => {
   return (
