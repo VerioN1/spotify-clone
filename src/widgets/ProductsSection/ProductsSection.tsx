@@ -22,7 +22,7 @@ const ProductsSection = () => {
       <h1>Good Evening</h1>
       <CardsWrapper>
         {Array.from({ length: 6 }).map((_, index) => (
-          <HorizontalCard />
+          <HorizontalCard key={index} />
         ))}
       </CardsWrapper>
     </Section>
