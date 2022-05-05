@@ -12,7 +12,8 @@ const CardsWrapper = styled.div`
   display: grid;
   margin: 1rem 0;
   grid-gap: 1rem 2rem;
-  grid-template: auto/repeat(auto-fill, minmax(max(15rem, 25%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(max(15rem, 25%), 1fr));
+  //grid-template: auto/repeat(auto-fill, minmax(max(15rem, 25%), 1fr));
   width: 100%;
 `;
 
